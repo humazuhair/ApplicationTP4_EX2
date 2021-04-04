@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:id="@+id/edit_name"
+
+              android:layout_width="250dp"
+              android:layout_height="400dp"
+              android:layout_gravity="center"
+              android:orientation="vertical"
+              android:padding="30dp" android:background="#A4B9CA">
+    <TextView
+            android:text="Choisissez un mode de paiement: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:padding="30dp"/>
+
+    <Button
+            android:id="@+id/PaiementCarte"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Paiement par Carte"
+            android:background="#658DAE"
+            android:drawableLeft="@drawable/visa"
+            android:width="250dp"
+    />
+    <View android:layout_width="match_parent" android:layout_height="30dp"
+          > </View>
+    <Button
+            android:id="@+id/PaiementPayPal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Paiement PayPal"
+            android:background="#658DAE"
+            android:drawableLeft="@drawable/paypal"
+            android:width="250dp"/>
+
+</LinearLayout>
